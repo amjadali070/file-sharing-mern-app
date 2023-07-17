@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #000;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+
+.img {
+  width: 30%;
+}
+
+.wrapper {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #445A6F;
+  margin: 40px 0;
+}
+
+input {
+  margin: 20px 0;
+  width: 300px;
+  padding: 8px;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #445A6F;
+  border: 1px solid #445A6F;
+  color: #fff;
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+.wrapper {
+  max-width: 400px;
+ 
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper h1 {
+  font-size: 32px; /* Increase font size for heading */
+  font-family: 'Arial', sans-serif; /* Change font family for heading */
+  margin-bottom: 10px;
+}
+
+.wrapper p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.wrapper button {
+  padding: 12px 24px; /* Increase padding for button */
+  font-size: 18px; /* Increase font size for button */
+  font-weight: bold; /* Add bold font weight to button text */
+  background-color: #4CAF50; /* Change button background color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.wrapper button:hover {
+  background-color: #45a049; /* Change button background color on hover */
+}
+
+.wrapper a {
+  display: block;
+  font-size: 18px;
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.wrapper a:hover {
+  text-decoration: underline;
+}
